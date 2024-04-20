@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+    margin: 0;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.btn.btn-success.col-md-3.m-auto {
+    background-color: #FF8C42; 
+    border: none;
+}
+
+text {
+    color: rgb(27, 23, 23);
+}
+
+footer {
+    padding: 10%;
+}
+
+.text-center h1 a{
+    color: #ff8c42;
+}
